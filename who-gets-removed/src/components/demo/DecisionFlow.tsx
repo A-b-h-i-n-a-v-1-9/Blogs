@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 interface Props {
   prompt: string;
   isAnimating?: boolean;
+  isDarkMode: boolean;
 }
 
 export default function DecisionFlow({ prompt, isAnimating = false }: Props) {

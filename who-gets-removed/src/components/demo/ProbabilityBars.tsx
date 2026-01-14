@@ -6,6 +6,7 @@ import { DecisionMap } from "@/types/Decision";
 interface Props {
   probabilities: DecisionMap;
   isAnimating?: boolean;
+  isDarkMode: boolean;
 }
 
 export default function ProbabilityBars({ probabilities, isAnimating = false }: Props) {

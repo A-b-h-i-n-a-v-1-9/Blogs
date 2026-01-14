@@ -6,6 +6,7 @@ interface Props {
   showEdited: boolean;
   onReveal: () => void;
   isAnimating: boolean;
+  isDarkMode: boolean;
 }
 
 export default function ResultReveal({ showEdited, onReveal, isAnimating }: Props) {
