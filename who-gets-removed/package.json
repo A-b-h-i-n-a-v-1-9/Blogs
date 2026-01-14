@@ -2,7 +2,7 @@
   "name": "who-gets-removed",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/A-b-h-i-n-a-v-1-9/Blogs/who-gets-removed",
+  "homepage": "https://github.com/A-b-h-i-n-a-v-1-9/blogs/who-gets-removed",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "eslint",
     "export": "next build",
     "predeploy": "npm run export",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out --dest blogs/who-gets-removed"
   },
   "dependencies": {
     "@types/gsap": "^1.20.2",
