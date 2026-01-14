@@ -64,12 +64,12 @@ export default function Home() {
       </button>
 
       {/* Demo Link Floating Button */}
-      <Link
+      {/* <Link
         href="/demo"
         className="fixed top-4 left-4 z-50 px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-900 hover:bg-blue-200 dark:hover:bg-blue-800 text-blue-700 dark:text-blue-300 text-sm font-medium shadow-lg transition-all duration-300 hover:scale-105"
       >
         Interactive Demo
-      </Link>
+      </Link> */}
 
       {/* Article Header */}
       <header className="max-w-3xl mx-auto px-6 py-16 pt-20">
@@ -496,7 +496,7 @@ export default function Home() {
         </section>
 
         {/* Interactive Demo Section - Minimal */}
-        <section className="my-16 py-8 border-t border-b border-gray-300 dark:border-gray-700">
+        {/* <section className="my-16 py-8 border-t border-b border-gray-300 dark:border-gray-700">
           <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-200">
             See the Decision Process Visually
           </h2>
@@ -513,7 +513,7 @@ export default function Home() {
             Explore the interactive AI decision demo
             <span>→</span>
           </Link>
-        </section>
+        </section> */}
 
         {/* Conclusion */}
         <section className="mb-16">
@@ -553,9 +553,9 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-2">
-              <Link href="/demo" className="text-sm text-blue-600 dark:text-blue-400 hover:underline">
+              {/* <Link href="/demo" className="text-sm text-blue-600 dark:text-blue-400 hover:underline">
                 Interactive Demo
-              </Link>
+              </Link> */}
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 Published: January 2026
               </span>

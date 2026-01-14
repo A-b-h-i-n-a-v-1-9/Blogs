@@ -2,9 +2,7 @@
 import { Face } from "./Face";
 
 export type CaseId =
-  | "case-1"
-  | "case-2"
-  | "case-3";
+ "case-1";
 
 export interface Case {
   id: CaseId;

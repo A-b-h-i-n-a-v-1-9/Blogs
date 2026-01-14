@@ -16,28 +16,16 @@ export const decisions: Record<
       C: 0.15,
     },
   },
-  "case-2": {
-    unnecessary: {
-      A: 0.21,
-      B: 0.59,
-      C: 0.20,
-    },
-    "least-relevant": {
-      A: 0.62,
-      B: 0.19,
-      C: 0.19,
-    },
-  },
-  "case-3": {
-    unnecessary: {
-      A: 0.28,
-      B: 0.54,
-      C: 0.18,
-    },
-    "least-relevant": {
-      A: 0.16,
-      B: 0.23,
-      C: 0.61,
-    },
-  },
+  // "case-2": {
+  //   unnecessary: {
+  //     A: 0.21,
+  //     B: 0.59,
+  //     C: 0.20,
+  //   },
+  //   "least-relevant": {
+  //     A: 0.62,
+  //     B: 0.19,
+  //     C: 0.19,
+  //   },
+  // },
 };
