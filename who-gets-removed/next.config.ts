@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
 
-const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: "/blogs/who-gets-removed",
+  assetPrefix: "/blogs/who-gets-removed",
+
+  images: {
+    unoptimized: true,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
