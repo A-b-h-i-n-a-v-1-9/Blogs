@@ -8,6 +8,7 @@ interface Props {
   onSelectPrompt: (id: PromptId) => void;
   prompts: Prompt[];
   isAnimating: boolean;
+  isDarkMode: boolean;
 }
 
 export default function PromptSelector({ selectedPromptId, onSelectPrompt, prompts, isAnimating }: Props) {
