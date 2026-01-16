@@ -28,7 +28,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* 👇 THIS FIXES ALL 404s ON GITHUB PAGES */}
-        <base href="/Blogs/who-gets-removed/" />
 
         <Script
           id="theme-script"
