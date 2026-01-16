@@ -27,6 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* 👇 THIS FIXES ALL 404s ON GITHUB PAGES */}
+        <base href="/Blogs/who-gets-removed/" />
+
         <Script
           id="theme-script"
           strategy="beforeInteractive"
@@ -53,7 +56,9 @@ export default function RootLayout({
         />
       </head>
 
-      <body>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
